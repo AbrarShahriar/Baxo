@@ -1,0 +1,39 @@
+body {
+    font-size: 15pt;
+    padding: 5px;
+    margin: 0;
+    padding-bottom: 1000px;
+}
+
+.card {
+  border: 1px solid red;
+  border-radius: 5px;
+  background: lightgray;
+  text-align: center;
+  margin: 0 5px 10px 5px;
+  padding-bottom: 10px;
+}
+
+.card__cart {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title > h3 {
+  margin-right: 10px;
+}
+
+strong {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.card__cart h3 {
+  display: inline;
+  margin-right: 10px;
+}
